@@ -50,5 +50,5 @@
 
 ---
 © 2026 Gram-Gyaan | AWS AI for Bharat Hackathon
-Would you like me to help you draft the Success Metrics section to show the judges how you plan to measure the impact of this project in rural areas?
+
 
