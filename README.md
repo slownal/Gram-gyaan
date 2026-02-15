@@ -1,17 +1,17 @@
-# 🌾 Gram-Gyaan: The Delta-Update Technical Tutor
+# Gram-Gyaan: The Delta-Update Technical Tutor
 ### *High-Impact AI Education for Low-Bandwidth Communities*
 
 **Gram-Gyaan** is an AI-powered, offline-first learning platform built for the **AWS AI for Bharat Hackathon**. It solves the "Bandwidth Barrier" by treating knowledge like code—syncing only what has changed to keep technical education accessible on less than **2MB of data per week**.
 
 ---
 
-## 🚀 The Problem: The Bandwidth Barrier
+## The Problem: The Bandwidth Barrier
 In rural "shadow zones," students face a massive digital divide:
 * **Data Heavy:** Educational videos (50MB+) and PDFs are impossible to download on 2G/3G networks.
 * **Connection Instability:** Downloads frequently fail due to intermittent signals.
 * **High Cost:** High data consumption creates a financial barrier to technical literacy.
 
-## 💡 The Solution: "Sync & Go"
+## The Solution: "Sync & Go"
 Instead of streaming media, **Gram-Gyaan** uses a **Differential Sync (Delta) Engine**:
 * **Atomization:** Distills complex technical concepts into tiny "Knowledge Nodes" (JSON + ASCII Diagrams).
 * **Delta Sync:** Pushes only the specific packets a student is missing since their last connection.
@@ -19,7 +19,7 @@ Instead of streaming media, **Gram-Gyaan** uses a **Differential Sync (Delta) En
 
 ---
 
-## 🛠 AWS Technical Stack
+## AWS Technical Stack
 
 | Service | Role |
 | :--- | :--- |
@@ -50,7 +50,7 @@ Extreme Efficiency: A full week of curriculum fits into the size of a single low
 
 ---
 
-## 📂 Knowledge Packet Structure (Example)
+## Knowledge Packet Structure (Example)
 ```json
 {
   "node_id": "NET_101_OSI",
