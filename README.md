@@ -31,7 +31,7 @@ Instead of streaming media, **Gram-Gyaan** uses a **Differential Sync (Delta) En
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 1.  **Content Processing:** Bedrock (Haiku) breaks a technical chapter into 2KB-5KB JSON nodes.
 2.  **Versioning:** Each node is assigned a version ID in DynamoDB.
